@@ -13,14 +13,6 @@ export default function App() {
     }).start();
   };
 
-  const fadeOut = () => {
-    // Will change fadeAnim value to 0 in 3 seconds
-    Animated.timing(fadeAnim, {
-      toValue: 0,
-      duration: 3000
-    }).start();
-  };
-
   return (
     <SafeAreaView style={styles.container}>
       <View style={styles.view}>
